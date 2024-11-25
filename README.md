@@ -20,3 +20,18 @@ Analyzing raw string dumps manually can be time-consuming and error-prone. Stati
   <li>Outputs a structured report categorizing the findings for easy interpretation.</li>
 </ol>
 
+## Use Cases
+<ul>
+  <li>Malware Reverse Engineering: Quickly identify critical strings without executing the malware.</li>
+  <li>Threat Intelligence: Extract indicators of compromise (IOCs) for further investigation.</li>
+  <li>Forensic Investigations: Assist in analyzing malicious artifacts from incidents.</li>
+</ul>
+
+
+## Installation
+Clone the repository and install dependencies:
+
+<div style="background-color: black; color: white;">
+git clone https://github.com/your-repo/static-string-analyzer.git
+cd static-string-analyzer
+python3 string_analysis.py strings.txt </div>
