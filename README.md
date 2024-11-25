@@ -31,6 +31,6 @@ Analyzing raw string dumps manually can be time-consuming and error-prone. Stati
 ## Installation
 Clone the repository and install dependencies:
 
-git clone https://github.com/your-repo/static-string-analyzer.git
-cd static-string-analyzer 
+git clone https://github.com/your-repo/static-string-analyzer.git <br>
+cd static-string-analyzer <br>
 python3 string_analysis.py strings.txt 
