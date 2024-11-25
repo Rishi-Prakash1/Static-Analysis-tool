@@ -9,3 +9,14 @@ Static String Analyzer is a Python-based static analysis tool designed for cyber
 <li>File Reference Detection: Identifies and categorizes references to additional files, including paths and filenames, aiding in deeper analysis.</li>
 <li>Focused String Analysis: Processes raw string dumps from files to extract actionable information efficiently.</li>
 </ul>
+
+## Why Use Static String Analyzer?
+Analyzing raw string dumps manually can be time-consuming and error-prone. Static String Analyzer streamlines this process by identifying high-value strings, categorizing them, and providing structured outputs for better understanding.
+
+## How It Works
+<ol>
+  <li>Provide a .txt file containing strings extracted from a target binary or file.</li>
+  <li>The tool scans the text for patterns such as Windows APIs, URLs, .exe references, and more.</li>
+  <li>Outputs a structured report categorizing the findings for easy interpretation.</li>
+</ol>
+
