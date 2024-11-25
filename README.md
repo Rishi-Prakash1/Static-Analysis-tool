@@ -33,5 +33,5 @@ Clone the repository and install dependencies:
 
 <div style="background-color: black; color: white; border: solid grey 2px;">
 git clone https://github.com/your-repo/static-string-analyzer.git
-cd static-string-analyzer
+cd static-string-analyzer<br>
 python3 string_analysis.py strings.txt </div>
