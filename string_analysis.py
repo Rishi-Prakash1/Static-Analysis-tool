@@ -68,6 +68,7 @@ try:
 
 except:
 	print(f"{RED}Syntax: python3 string_analysis.py strings.txt")
-	if ".txt" in arguments[1]:
-		print(f"{RED}{arguments[1]}: File not found!!!")
+	if len(arguments)>1:
+		if ".txt" in arguments[1]:
+			print(f"{RED}{arguments[1]}: File not found!!!")
 
